@@ -15,6 +15,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <title>Portfolio de Florent Diabi</title>
     </head>
 
@@ -36,7 +37,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="#competences" class="nav-link">
-                                <span class="fa fa-brain"></span> Compétences
+                                <span class="fa fa-graduation-cap"></span> Compétences
                             </a>
                         </li>
                         <li class="nav-item">
@@ -53,22 +54,19 @@
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/appliandroid.html">Application Android</a>
+                                    <a role="menuitem" href="pages/appliandroid.html">Projet GSB</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Site web</a>
-                                </li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Études et analyses</a>
+                                    <a role="menuitem" href="#">2ème PROJET</a>
                                 </li>
                                 <li role="presentation" class="dropdown-divider"></li>
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En entreprise</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Projet de 1ère année</a>
+                                    <a role="menuitem" href="pages/premierstage.html">Stage de 1ère année</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Projet de 2ème année</a>
+                                    <a role="menuitem" href="#">Stage de 2ème année</a>
                                 </li>
 
 
@@ -93,17 +91,16 @@
                     <div class="col-lg-12">
                         <div class="intro-text">
                             <span class="name">Diabi Florent</span>
-                            <span class="skills">Jeune développeur de 19 ans, passioné d'informatique depuis toujours avec la volonté de devenir professionel dans ce milieu</span>
+                            <span class="skills">Jeune développeur de 19 ans, passioné d'informatique depuis toujours avec la volonté de devenir professionnel dans ce milieu</span>
                             <hr class="star-light">
                         </div>
-                        <img class="img-responsive img-bigScreen" src="https://res.cloudinary.com/dasdezine/image/upload/v1458052055/glass_cdjbpa.png" alt="glasses image" title="geek loves glasses">
                     </div>
                 </div>
 
             </div>
         </header>
 
-        <!-- About Section -->
+        <!-- Section Compétences -->
         <section id="competences">
             <div class="container">            
                 <div class="row">
@@ -113,8 +110,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 center-block about-item">                                       
-                        <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052399/psd_kvl8es.png" class="img-responsive" alt="">                   
+                    <div class="col-sm-4 center-block about-item">                                                    
                         <article class="about-item-One">
                             <header>
                                 <h3>Programmation Objet</h3>
@@ -127,7 +123,6 @@
                     </div>
                     <div class="col-sm-4 about-item ">
 
-                        <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052396/illustrator_a9kxav.png" class="img-responsive" alt="">
 
                         <article class="about-item-Two">
                             <header>
@@ -141,7 +136,6 @@
                     </div>
                     <div class="col-sm-4 about-item ">
 
-                        <img src="https://res.cloudinary.com/dasdezine/image/upload/v1458052396/knit_b0ngnp.png" class="img-responsive" alt="">
 
                         <article class="about-item-Three">
                             <header>
@@ -185,7 +179,7 @@
                             <p>
                                 Cette passion pour l'informatique est présente depuis que je suis tout petit, elle a évidemment commencé par les jeux vidéos avant d'évoluer vers la
                                 volonté de s'intéresser à comment les choses sont faites et ainsi découvir le développement. 
-                                
+
                             </p>
                         </article>                    
                     </div>
@@ -205,20 +199,20 @@
                         </article>                    
                     </div>
                     <div class="col-sm-4 portfolio-item">
-                    <a class="portfolio-link text-center" data-toggle="modal">
-                        <span class="fa fa-fw fa-headphones" aria-hidden="true" title="Ce logo représente le fait que je suis passionné de sport
-                        "></span>
-                    </a>
-                    <article class="portfolio-item-Three">
-                        <header>
-                            <h3>Sport</h3>
-                        </header>
-                        <p>
-                            Ma passion pour le sport vient depuis que je suis tout petit, en cherchant un sport je voulais d'abord "courir sur la piste orange" (athlétisme) étant trop jeune
-                            je me suis rabattu sur la même passion que mon papa, le cyclisme. Cela fait maintenant presque 15 ans que je parcours des kilomètres sur les routes.
-                        </p>
-                    </article>                    
-                </div>
+                        <a class="portfolio-link text-center" data-toggle="modal">
+                            <span class="bi bi-suit-heart-fill" aria-hidden="true" title="Ce logo représente le fait que je suis passionné par le sport
+                                  "></span>
+                        </a>
+                        <article class="portfolio-item-Three">
+                            <header>
+                                <h3>Sport</h3>
+                            </header>
+                            <p>
+                                Ma passion pour le sport vient depuis que je suis tout petit, en cherchant un sport je voulais d'abord "courir sur la piste orange" (athlétisme) étant trop jeune
+                                je me suis rabattu sur la même passion que mon papa, le cyclisme. Cela fait maintenant presque 15 ans que je parcours des kilomètres sur les routes.
+                            </p>
+                        </article>                    
+                    </div>
                 </div>
             </div>
         </section>
@@ -233,8 +227,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="footer-col col-md-4">
-                            <h3>Adresse</h3>
-                            <p>760 chemin des bonnes herbes, résidence le Vallon des Bonnes Herbes</p>
+                            <h3>Mon adresse</h3>
+                            <p>760 chemin des bonnes herbes, résidence le Vallon des Bonnes Herbes, Toulon</p>
                         </div>
                         <div class="footer-col col-md-4">
                             <h3>Réseaux Sociaux</h3>
@@ -295,31 +289,12 @@
             </div>
         </footer>
 
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <!-- Bouton de retour en haut de page -->
         <div class="scroll-top page-scroll visible-xs visible-sm">
             <a class="btn btn-primary" href="#page-top">
                 <i class="fa fa-chevron-up"></i>
             </a>
         </div>
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
-
-        <!-- Contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
-
-        <!-- Custom Theme JavaScript -->
-        <script src="js/freelancer.js"></script>
-
     </body>
 
 </html>
