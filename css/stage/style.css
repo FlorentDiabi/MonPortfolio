@@ -1,0 +1,31 @@
+
+#caroussel{
+    width: 477px;
+    overflow:hidden;
+}
+
+.images{
+    display:flex;
+    animation-duration: 10s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+    0%{
+        transform:translateX(0);
+        
+    }
+    25%{
+        transform:translateX(-477px);
+    }
+    50%{
+        transform:translateX(-954px);
+    }
+    75%{
+        transform:translateX(-1431px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
