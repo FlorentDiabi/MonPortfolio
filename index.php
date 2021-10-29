@@ -91,7 +91,7 @@
                     <div class="col-lg-12">
                         <div class="intro-text">
                             <span class="name">Diabi Florent</span>
-                            <span class="skills">Jeune développeur de 19 ans, passioné d'informatique depuis toujours avec la volonté de devenir professionnel dans ce milieu</span>
+                            <span class="skills">Jeune développeur de 19 ans, passionné d'informatique depuis toujours avec la volonté de devenir professionnel dans ce milieu</span>
                             <hr class="star-light">
                         </div>
                     </div>
