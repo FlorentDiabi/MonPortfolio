@@ -6,9 +6,10 @@
 
 .images{
     display:flex;
-    animation-duration: 10s;
+    animation-duration: 17.5s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
+    padding-bottom: 15px;
 }
 
 @keyframes mesImages{

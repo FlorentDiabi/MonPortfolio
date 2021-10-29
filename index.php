@@ -50,7 +50,7 @@
                                data-toggle="dropdown" role="button">
                                 <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu" role="menu">
+                            <ul class="dropdown-menu" role="menu" style="background-color: #2c3e50;">
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
