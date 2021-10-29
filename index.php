@@ -54,10 +54,10 @@
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/appliandroid.html">Projet GSB</a>
+                                    <a role="menuitem" href="pages/projetgsb.html">Projet GSB</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">2ème PROJET</a>
+                                    <a role="menuitem" href="pages/deuxiemeprojet.html">2ème PROJET</a>
                                 </li>
                                 <li role="presentation" class="dropdown-divider"></li>
                                 <li role="presentation" class="dropdown-header dropdown-item">
@@ -66,7 +66,7 @@
                                     <a role="menuitem" href="pages/premierstage.html">Stage de 1ère année</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Stage de 2ème année</a>
+                                    <a role="menuitem" href="deuxiemestage.html">Stage de 2ème année</a>
                                 </li>
 
 
@@ -200,7 +200,7 @@
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <a class="portfolio-link text-center" data-toggle="modal">
-                            <span class="bi bi-suit-heart-fill" aria-hidden="true" title="Ce logo représente le fait que je suis passionné par le sport
+                            <span class="fa fa-bicycle" aria-hidden="true" title="Ce logo représente le fait que je suis passionné par le sport
                                   "></span>
                         </a>
                         <article class="portfolio-item-Three">
