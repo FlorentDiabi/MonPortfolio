@@ -23,25 +23,24 @@
     animation-iteration-count: infinite;
     padding-bottom: 15px;
     
-    
 }
 
 
 @keyframes mesImages{
     0%{
-        transform:translateX(0);
+        transform:translateX(0px);
         
     }
     25%{
-        transform:translateX(-345px);
+        transform:translateX(-365px);
     }
     50%{
-        transform:translateX(-690px);
+        transform:translateX(-710px);
     }
     75%{
-        transform:translateX(-1035px);
+        transform:translateX(-1065px);
     }
     100%{
-        transform:translateX(0);
+        transform:translateX(-30px);
     }
 }
