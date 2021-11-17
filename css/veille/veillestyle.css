@@ -3,13 +3,14 @@
     width: 345px;
     overflow:hidden;
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
-    padding: 30px;
+    padding: 50px;
     margin: 0 auto;
     -webkit-transition: all 0.2s;
      -moz-transition: all 0.2s;
      -ms-transition: all 0.2s;
      -o-transition: all 0.2s;
      transition: all 0.2s;
+     margin-bottom: 20px;
 }
 
 #caroussel:hover{
@@ -43,4 +44,15 @@
     100%{
         transform:translateX(-30px);
     }
+}
+#oracle{
+    margin-top: 20px;
+    -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+#oracle:hover{
+    transform:scale(1.2);
 }
