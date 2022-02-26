@@ -21,7 +21,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #fad663;
+    color: #F7CC01 ;
+    font-weight: 700;
 }
 
 h1,
@@ -452,7 +453,6 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 }
 
 .floating-label-form-group label {
-    display: block;
     z-index: 0;
     position: relative;
     top: 2em;

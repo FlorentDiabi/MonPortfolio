@@ -16,10 +16,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
         <link href="../css/stage/style.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/e9aaa21c8d.js" crossorigin="anonymous"></script>
         <link href="../css/gsb/gsbStyle.css" rel="stylesheet" type="text/css"/>
         <title>Portfolio de Florent Diabi</title>
     </head>
+
 
     <body id="page-top" class="index">
         <!-- Navigation -->
@@ -44,13 +45,13 @@
                         </li>
                         <li class="nav-item">
                             <a href="../index.html#passions" class="nav-link">
-                                <span class="fas fa-brain"></span> Passions
+                                <i class="fa-brands fa-gratipay"></i> Passions
                             </a>
                         </li>
                         <li class="dropdown nav-item">
                             <a href="#" class="dropdown-toggle nav-link"
                                data-toggle="dropdown" role="button">
-                                <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
+                               <i class="fa-solid fa-diagram-project"></i> Réalisations <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu" style="background-color: #2c3e50;">
                                 <li role="presentation" class="dropdown-header dropdown-item">
@@ -96,7 +97,7 @@
                     <div class="col-lg-12">
                         <div class="intro-text">
                             <span class="name">Diabi Florent</span>
-                            <span class="skills">Jeune développeur de 19 ans, passioné d'informatique depuis toujours avec la volonté de devenir professionel dans ce milieu</span>
+                            <span class="skills">Jeune développeur de 20 ans, passioné d'informatique depuis toujours avec la volonté de devenir professionel dans ce milieu</span>
                             <hr class="star-light">
                         </div>
                     </div>
@@ -107,7 +108,7 @@
 
 
         <!-- Section Compétences -->
-        <section id="competences">
+        <section>
             <div class="container">            
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -119,63 +120,83 @@
                     </div>-->
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 center-block about-item">                                                    
+                    <div class="col-6 center-block about-item" id="contexte">                                                    
                         <article class="about-item-One">
                             <header>
                                 <h3>Contexte</h3>
                             </header>
                             <p>
+                                <b>Projet scolaire réalisé en groupe dans le cadre de l'examen du BTS SIO SLAM</b><br>
                                 Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy et
-                                le conglomérat européen Swiss Bourdin, lui-même déjà union de trois petits laboratoires.
+                                le conglomérat européen Swiss Bourdin, lui-même déjà union de trois petits laboratoires.Après deux 
+                                années de réorganisations internes, l'entreprise GSB souhaite moderniser l'activité de visite médicale.
                             </p>
                         </article>   
                     </div>
-                    <div class="col-sm-6 about-item ">
-
-
-                        <article class="about-item-Two">
-                            <header>
-                                <h3>Équipe de développement</h3>
-                            </header>
-                            <p>
-                                Clément Loze<br>
-                                Florent Diabi<br>
-                                Ilan Wanounou<br>
-                                Angelo Tremoureux
-                            </p>
-                        </article>
-                    </div>             
+                    <div class="col-6 center-block about-item equipdev">
+                        <p><i class="fa-solid fa-code"></i> Équipe de développement : </p>
+                        <ul>
+                            <li>Angelo Tremoureux (<a href="https://angelotremoureux.fr" target="_blank">angelotremoureux.fr</a>)</li>
+                            <li>Clément Loze (<a href="https://clementloze.fr/" target="_blank">clementloze.fr</a>)</li>
+                            <li>Ilan Wanounou (<a href="https://ilanwanounou.fr/" target="_blank">ilanwanounou.fr</a>)</li>
+                            <li>Florent Diabi (<a href="https://www.florentdiabi.fr/">florentdiabi.fr</a>)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-12 text-center">
-                    <h2>Compétences pour l'épreuve E4</h2>
+                <div class="col-lg-12">
+                    <h2 style="text-align:center;">Organisation du travail</h2>
                     <hr class="star-primary">
+                
+                    <div id="methodes">
+                        <p class="titreOrga"><i class="fa-solid fa-list-check"></i> Répartition :</p>
+                        
+                        <p>Nous avons donc travaillé en équipe de 4, afin de nous répartir les différente tâches nous avons créé un
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">Trello</a>, ainsi chaque
+                            personne pouvait créer une tâche et se l'assigner. Le tableau se décomposait en différentes colonnes, <a style="outline:0;color:#F7CC01;font-weight:700;">"To Do"</a>, 
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">"Wok In Progress"</a> 
+                            et <a style="outline:0;color:#F7CC01;font-weight:700;">"Done"</a>. Grâce à cela nous avions un réel suivi de l'avancement du projet, et de chaque tâche.<br>
+                            <img src="../images/gsb/Trello.jpg" class="img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Branches Github" style="height:300px;">
+                        </p>
+                        <p class="titreOrga"><i class="fa-brands fa-github"></i> Versionning :</p>
+                            
+                        <p>Le projet a bien évidemment été versionné, pour cela nous avons donc utiliser <a href="https://github.com/Zelcor/GSB_AppliMVC" target="_blank">Github</a>
+                            et avons créé un dépôt commun qui se décompose en plusieurs branches, <a style="outline:0;color:#F7CC01;font-weight:700;">Main</a>, 
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">Developp</a> et une branche par personne sous la forme 
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">Feature/Prénom</a>.
+                            Lorsqu'une fonctionnalité est terminée la branche de Feature est fusionnée à developp via une <a style="outline:0;color:#F7CC01;font-weight:700;">pull-request</a>
+                            (avec validation de membres de l'équipe selon la fonctionnalité).<br>
+                            Ensuite la branche developp est fusionnée à la branche main avec cette fois-ci validation de toute l'équipe.
+                            <img src="../images/gsb/gitHubBranch.jpg" class="img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Branches Github" style="height:300px;">
+                            
+                        </p>
+                    </div>
                 </div>
-                <div>
-
-                    <p style="text-align: center;">
-                        <b>• 1.1 Gérer le patrimoine informatique</b><br>
-                        ▸ Exploiter des référentiels, normes et standards adoptés par le prestataire informatique.<br>
-                        ▸ Solution de gestion de version paramétrée.<br>
-                        ▸ Création d'une ou plusieurs documentations techniques.<br>
-                        <b>• 1.2 Répondre aux incidents et aux demandes d’assistance et d’évolution.</b><br>
-                        ▸ Suivi de demande & résolution d'un incident (ticket trello).<br>
-                        ▸ Travail en pull-request avec commentaires & validation.<br>
-                        <b>• 1.3 Développer la présence en ligne de l’organisation.</b><br>
-                        ▸ Documentation technique mise à jour avec l'intégration d'une évolution sur site.<br>
-                        <b>• 1.4 Travailler en mode projet.</b><br>
-                        ▸ Création et assignation de tâches via la méthode agile Kanban sur Trello.<br>
-                        ▸ Découpage en sous-tâches des tâches.<br>
-                        ▸ Description de la méthode d'organisation en pull-request et en branche de features.<br>
-                        <b>• 1.5 Mettre à disposition des utilisateurs un service informatique.</b><br>
-                        ▸ Plan de test.<br>
-                        ▸ Réalisation de tests d'intégration.<br>
-                        ▸ Déployer un service (VM)
-                    </<p>
-                </div>
-                <!--<div class="col-lg-12 text-center">
-                    <h2>Annexe & Liens</h2>
+                <div class="col-lg-12">
+                    <h2 style="text-align:center;">Compétences pour l'épreuve E4</h2>
                     <hr class="star-primary">
-                </div>-->
+                
+                    <div id="compepreuve">
+
+                        <p>
+                            <b>• 1.1 Gérer le patrimoine informatique</b><br>
+                            ▸ Exploiter des référentiels, normes et standards adoptés par le prestataire informatique.<br>
+                            ▸ Solution de gestion de version paramétrée.<br>
+                            ▸ Création d'une ou plusieurs documentations techniques.<br>
+                            <b>• 1.2 Répondre aux incidents et aux demandes d’assistance et d’évolution.</b><br>
+                            ▸ Suivi de demande & résolution d'un incident (ticket trello).<br>
+                            ▸ Travail en pull-request avec commentaires & validation.<br>
+                            <b>• 1.3 Développer la présence en ligne de l’organisation.</b><br>
+                            ▸ Documentation technique mise à jour avec l'intégration d'une évolution sur site.<br>
+                            <b>• 1.4 Travailler en mode projet.</b><br>
+                            ▸ Création et assignation de tâches via la méthode agile Kanban sur Trello.<br>
+                            ▸ Découpage en sous-tâches des tâches.<br>
+                            ▸ Description de la méthode d'organisation en pull-request et en branche de features.<br>
+                            <b>• 1.5 Mettre à disposition des utilisateurs un service informatique.</b><br>
+                            ▸ Plan de test.<br>
+                            ▸ Réalisation de tests d'intégration.<br>
+                        </p>
+                    </div>
+                </div>
             </div>       
         </section>
 
@@ -242,7 +263,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            Copyright &copy; Florent DIABI 2021
+                            Copyright &copy; Florent DIABI 2022
                         </div>
                     </div>
                 </div>
