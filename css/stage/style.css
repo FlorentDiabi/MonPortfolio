@@ -30,3 +30,9 @@
         transform:translateX(0);
     }
 }
+
+.titreStage{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
