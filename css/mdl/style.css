@@ -1,0 +1,33 @@
+#logo{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.test{
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
+#contexte{
+    text-align: initial;
+    background: none;
+}
+
+.equipdev{
+    font-size: 22px;
+}
+
+#page-top > section > div > div:nth-child(2) > div.col-6.center-block.about-item.equipdev > p{
+    background-color: #fdd200;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Ubuntu',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.titreOrga{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
