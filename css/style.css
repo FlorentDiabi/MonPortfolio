@@ -547,3 +547,7 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+
+ul li.active a{
+    color:#F7CC01!important;
+}
