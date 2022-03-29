@@ -31,3 +31,15 @@
     font-weight: 700;
     text-decoration: underline;
 }
+
+.effect{
+    -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+
+.effect:hover{
+    transform:scale(1.2);
+}
