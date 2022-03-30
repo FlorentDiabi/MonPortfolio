@@ -43,3 +43,7 @@
 .effect:hover{
     transform:scale(1.2);
 }
+
+.skills{
+    font-style: italic;
+}
