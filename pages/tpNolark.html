@@ -16,11 +16,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
         <link href="../css/stage/style.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/mdl/style.css" rel="stylesheet" type="text/css"/>
         <script src="https://kit.fontawesome.com/e9aaa21c8d.js" crossorigin="anonymous"></script>
+        <link href="../css/gsb/gsbStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/nolark/nolarkStyle.css" rel="stylesheet" type="text/css"/>
         <title>Portfolio de Florent Diabi</title>
     </head>
-    
+
+
     <body id="page-top" class="index">
         <!-- Navigation -->
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
@@ -57,7 +59,7 @@
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="tpNolark.html">Tp nolark</a>
+                                    <a role="menuitem" href="tpNolark.html">TP Nolark</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="projetgsb.html">Projet GSB</a>
@@ -89,7 +91,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <!-- Header -->
         <header>
             <div class="container" style="max-height:800px;">
@@ -105,13 +107,13 @@
                 <img src="../images/PhotoMoi.jpg" alt="Photo de moi" style="border-radius:50%;">
             </div>
         </header>
-        
-        
+
+
         <section>
-            <div class="container">            
+            <div class="container nolark-intro">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Projet Maison Des Ligues</h2>
+                        <h2>Projet Nolark</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
@@ -122,82 +124,64 @@
                                 <h3>Contexte</h3>
                             </header>
                             <p>
-                                <b>Projet scolaire réalisé en groupe dans le cadre de l'examen du BTS SIO SLAM</b><br>
-                                La Maison des Ligues de Lorraine (M2L) a pour mission de fournir des espaces et des services aux
-                                différentes ligues sportives régionales et à d’autres structures hébergées. La M2L est une structure
-                                financée par le Conseil Régional de Lorraine dont l'administration est déléguée au Comité Régional
-                                Olympique et Sportif de Lorraine (CROSL).
-                                L'application est développée sous le framework Symfony 4.4.
+                                <b>Projet scolaire réalisé dans le cadre du BTS SIO SLAM</b><br>
+                                L'entreprise Nolark est une boutique physique de vente de casques 
+                                pour les deux roues motorisés. Elle dispose d'un site web 
+                                et souhaite une prise en charge de la maintenance.
                             </p>
                         </article>   
                     </div>
                     <div class="col-6 center-block about-item equipdev">
-                        <p><i class="fa-solid fa-code"></i> Équipe de développement : </p>
+                        <p> Notions découvertes : </p>
                         <ul>
-                            <li>Angelo Tremoureux (<a href="https://angelotremoureux.fr" target="_blank">angelotremoureux.fr</a>)</li>
-                            <li>Clément Loze (<a href="https://clementloze.fr/" target="_blank">clementloze.fr</a>)</li>
-                            <li>Ilan Wanounou (<a href="https://ilanwanounou.fr/" target="_blank">ilanwanounou.fr</a>)</li>
-                            <li>Florent Diabi (<a href="https://www.florentdiabi.fr/">florentdiabi.fr</a>)</li>
+                            <li>Langages Web (HTML/CSS/JavaScript).</li>
+                            <li>Responsabilités juridiques sur le Web.</li>
+                            <li>Déploiment de service.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <h2 style="text-align:center;">Organisation du travail</h2>
+                    <h2 style="text-align:center;">Missions</h2>
                     <hr class="star-primary">
                 
                     <div id="methodes">
-                        <p class="titreOrga"><i class="fa-solid fa-list-check"></i> Répartition :</p>
+                        <p class="titreOrga"><i class="fa-solid fa-gavel"></i> Responsabilités juridiques de l'entreprise :</p>
                         
-                        <p>Nous avons donc travaillé en équipe de 4, afin de nous répartir les différentes tâches nous avons créé un
-                            <a style="outline:0;color:#F7CC01;font-weight:700;">Trello</a>, ainsi chaque
-                            personne pouvait créer une tâche et se l'assigner. Le tableau se décomposait en différentes colonnes, <a style="outline:0;color:#F7CC01;font-weight:700;">"Backlog"</a>
-                            avec la liste des tâches à faire,<a style="outline:0;color:#F7CC01;font-weight:700;">"En cours"</a>,<a style="outline:0;color:#F7CC01;font-weight:700;">"Révision"</a>
-                            et <a style="outline:0;color:#F7CC01;font-weight:700;">"Terminé"</a>. Grâce à cela nous avions un réel suivi de l'avancement du projet, et de chaque tâche.<br>
-                            <img src="../images/mdl/Trello.jpg" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Tableau Trello" title="Tableau Trello" style="height:300px;margin-top:10px;">
+                        <p>La première mission a donc été de vérifier la conformité du site d'un point de vue respect de la réglementation
+                            en matière de <a style="outline:0;color:#F7CC01;font-weight:700;">collecte</a>, 
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">traitement</a> et 
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">stockage</a> des données à caractère personnel 
+                            <a style="outline:0;color:#F7CC01;font-weight:700;">(DCP)</a> sous la forme d'une synthèse.
                         </p>
-                        <p class="titreOrga"><i class="fa-brands fa-github"></i> Versionning :</p>
-                            
-                        <p>Le projet a bien évidemment été versionné, pour cela nous avons donc utiliser <a href="https://github.com/AngeloTremoureux/MDL" target="_blank">Github</a>
-                            et avons créé un dépôt commun qui se décompose en toujours enplusieurs branches, <a style="outline:0;color:#F7CC01;font-weight:700;">Main</a>, 
-                            <a style="outline:0;color:#F7CC01;font-weight:700;">Developp</a> et cette fois-ci une branche par feature/fonctionnalité développée sous la forme 
-                            <a style="outline:0;color:#F7CC01;font-weight:700;">Feature/fonctionnalité</a>.
-                            Lorsqu'une fonctionnalité est terminée la branche de Feature est fusionnée à developp via une <a style="outline:0;color:#F7CC01;font-weight:700;">pull-request</a>
-                            (avec validation de membres de l'équipe selon la fonctionnalité), puis cette branche est supprimée.<br>
-                            <img src="../images/mdl/brancheGithub.jpg" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Branches Github" title="Branches Github" style="height:300px;margin-top:10px;">
-                            
+                        <p>Ensuite, il a fallut utiliser le validateur du World Wide Web Consortium <a style="outline:0;color:#F7CC01;font-weight:700;">(W3C)</a>
+                             afin de révéler les erreurs 
+                            que contiennent le site afin de les corriger dans le futur.
+                        </p>
+                        <img src="../images/nolark/dcp.jpg" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Synthèse DCP Nolark" title="Synthèse DCP Nolark" style="height:450px;width: 44%;">
+                        <img src="../images/nolark/w3c.jpg" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Erreurs W3C Nolark" title="Erreurs W3C Nolark" style="height:450px;width: 55%;">
+                    
+                        <p class="titreOrga"><i class="fa-solid fa-code"></i> Développement Web :</p>
+                        <p>Nous avons découvert les différentes notions <a style="outline:0;color:#F7CC01;font-weight:700;">HTML/CSS/JavaScript</a>
+                             en développant sur le site existant un outil de calcul
+                            de taux <a style="outline:0;color:#F7CC01;font-weight:700;">d'alcoolémie</a>, dans le contexte d'évènement du site de vente de casques de deux roues :
+                        </p>
+                        <img src="../images/nolark/alcoolemie-js.png" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Calcul d'alcoolémie" title="Calcul d'alcoolémie" style="width: 32%;">
+                        <img src="../images/nolark/alcoolemie-js2.png" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Calcul de la sanction" title="Calcul de la sanction" style="width: 34%;">
+                        <img src="../images/nolark/simulateur-alcoolemie-rempli.png" class="img-thumbnail shadow p-3 mb-5 bg-white rounded effect" alt="Rendu de la fonctionnalité" title="Rendu de la fonctionnalité" style="width: 33%;">
+                    
+
+                        <p class="titreOrga"><i class="fa-solid fa-server"></i> Déploiement de service :</p>
+                        <p>
+                            Pour finir, nous avons déployer le tout sur une machine de production virtuelle Debian, à l'aide de <a style="outline:0;color:#F7CC01;font-weight:700;">Filezilla</a> :
+                            <img src="../images/nolark/vmDebian.png" class="img-thumbnail shadow p-3 mt-3 bg-white rounded effect" alt="Configuration VM" title="Configuration VM" style="width: 45%;">
+                            <img src="../images/nolark/fileZilla.png" class="img-thumbnail shadow p-3 mt-3 bg-white rounded effect" alt="Filezilla" title="Filezilla" style="width: 54%;">
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <h2 style="text-align:center;">Compétences pour l'épreuve E4</h2>
-                    <hr class="star-primary">
-                
-                    <div id="compepreuve">
-
-                        <p>
-                            <b>• 1.1 Gérer le patrimoine informatique</b><br>
-                            ▸ Exploiter des référentiels, normes et standards adoptés par le prestataire informatique.<br>
-                            ▸ Solution de gestion de version paramétrée.<br>
-                            ▸ Création d'une ou plusieurs documentations techniques.<br>
-                            <b>• 1.2 Répondre aux incidents et aux demandes d’assistance et d’évolution.</b><br>
-                            ▸ Suivi de demande & résolution d'un incident (ticket trello).<br>
-                            ▸ Travail en pull-request avec commentaires & validation.<br>
-                            <b>• 1.3 Développer la présence en ligne de l’organisation.</b><br>
-                            ▸ Documentation technique mise à jour avec l'intégration d'une évolution sur site.<br>
-                            <b>• 1.4 Travailler en mode projet.</b><br>
-                            ▸ Création et assignation de tâches via la méthode agile Kanban sur Trello.<br>
-                            ▸ Découpage en sous-tâches des tâches.<br>
-                            ▸ Description de la méthode d'organisation en pull-request et en branche de features.<br>
-                            <b>• 1.5 Mettre à disposition des utilisateurs un service informatique.</b><br>
-                            ▸ Plan de test.<br>
-                            ▸ Réalisation de tests d'intégration.<br>
-                        </p>
-                    </div>
                 </div>
             </div>       
         </section>
-        
-        
+
         <footer id="contact" class="text-center">
             <div class="footer-above">
                 <div class="container">
@@ -217,7 +201,7 @@
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/Glary_" target="_blank" class="btn-social btn-outline" 
-                                      title="Twitter">
+                                       title="Twitter">
                                         <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
                                         <span class="sr-only">twitter</span>
                                     </a>
@@ -264,9 +248,11 @@
                 </div>
             </div>
             <!-- Bouton de retour en haut de page -->
-        <div class="scroll-top page-scroll visible-xs visible-sm">
-            <a class="btn btn-primary" href="#page-top">
-                <i class="fa fa-chevron-up"></i>
-            </a>
-        </div>
+            <div class="scroll-top page-scroll visible-xs visible-sm">
+                <a class="btn btn-primary" href="#page-top">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+            </div>
         </footer>
+    </body>
+</html>
